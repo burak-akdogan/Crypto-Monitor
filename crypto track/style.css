@@ -3,7 +3,7 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: rgb(71, 107, 224);
+background-color: rgb(158, 158, 160);
 }
 
 body{
@@ -11,17 +11,16 @@ display: flex;
 justify-content: center;
 align-items: center;
 min-height: 100vh;
-background-color: rgb(212, 211, 211);
+background-color: rgb(12, 11, 11);
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 20px;
-    box-shadow:  0 0 3 rgb(172, 170, 170);
-    border-radius: 5px;
-    
+    display: grid;
+    grid-template-columns: auto   ;
+    gap: 100px;
+    border: 1px solid black;
+    padding: 10px;
+
     }
 .container .coin-price{
     display: flex;
@@ -35,4 +34,6 @@ background-color: rgb(212, 211, 211);
 .container .coin-price .logo{
 width: 70px;
 margin-right: 10px;
+
 }
+
